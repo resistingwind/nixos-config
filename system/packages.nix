@@ -6,7 +6,7 @@
   [
     # Desktop
     hyprland wayland kitty hyprshot
-    hyprpaper
+    hyprpaper hyprlauncher
 
     # System
     cloudflared tcpdump nftables
