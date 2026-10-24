@@ -8,6 +8,7 @@
       ./desktop/default.nix 
       ./system/default.nix 
       ./packages/default.nix 
+      ./hardware/default.nix
   ];
 
   system.stateVersion = "26.05"; 
