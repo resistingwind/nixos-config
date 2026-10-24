@@ -4,10 +4,13 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; 
   [
+    # Desktop
+    hyprland wayland kitty hyprshot
+    hyprpaper
+
     # System
     cloudflared tcpdump nftables
-    hyprland hyprlauncher wayland kitty fastfetch 
-    brightnessctl pipewire wireplumber hyprshot 
+    brightnessctl pipewire wireplumber 
 
     # Development 
     gradle git python3 jdk25
@@ -16,6 +19,7 @@
     # Software
     kdePackages.dolphin firefox unzip
     librewolf discord-canary sunshine
+    fastfetch
 
     # OBS
     obs-studio obs-studio-plugins.distroav obs-studio-plugins.wlrobs ndi
