@@ -24,11 +24,10 @@
     brightnessctl pipewire wireplumber 
 
     # Development 
-    gradle git python3 jdk25
-    codex
+    git codex chezmoi
     
     # Software
-    kdePackages.dolphin firefox unzip
+    kdePackages.dolphin unzip qutebrowser
     librewolf discord-canary sunshine
     fastfetch
 
