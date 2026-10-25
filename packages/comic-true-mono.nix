@@ -1,6 +1,7 @@
 {
   fetchFromGitHub, 
-  stdenvNoCC
+  stdenvNoCC,
+  ...
 }:
 stdenvNoCC.mkDerivation {
   pname = "comic-true-mono";
