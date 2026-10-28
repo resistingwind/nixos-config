@@ -21,7 +21,7 @@
 
     # System
     cloudflared tcpdump nftables
-    brightnessctl pipewire wireplumber 
+    brightnessctl 
 
     # Development 
     git codex chezmoi
@@ -29,13 +29,13 @@
     # Software
     kdePackages.dolphin unzip qutebrowser
     librewolf discord-canary sunshine
-    fastfetch
+    fastfetch ollama
 
     # OBS
     obs-studio obs-studio-plugins.distroav obs-studio-plugins.wlrobs ndi
     obs-studio-plugins.obs-pipewire-audio-capture
 
     # Hardware
-    libsmbios
+    fan2go lm_sensors
   ];
 }
